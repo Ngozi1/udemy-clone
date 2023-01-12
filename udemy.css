@@ -191,7 +191,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-width:250px;
+    min-width: 250px;
     min-height: 250px;
     margin: auto;
     border: 1px solid black;
@@ -225,6 +225,7 @@ body{
     text-align: center;
     opacity: 1;
 }
+
 
 /* ...................students..........? */
 .students{
@@ -285,6 +286,24 @@ body{
     opacity: 1;
 }
 
+/* top categories */
+
+.categories{
+    margin: 2rem;
+}
+
+.first_category{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+
+.second_category{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
 /* ...................kinked../ */
 .kinked{
     width: 100%;
